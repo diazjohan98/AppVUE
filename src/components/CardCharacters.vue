@@ -62,7 +62,7 @@ export default {
   }
   &__info {
     padding: 1.5rem;
-    .status {
+    .status{
       display: flex;
       align-items: center;
       margin-bottom: 0.5rem;
@@ -78,17 +78,15 @@ export default {
       .alive {
         background-color: green;
       }
-
       .dead {
         background-color: red;
       }
-
       .default {
         background-color: white;
       }
     }
-    .origen{
-        margin-bottom: 0.5rem;
+    .origen {
+      margin-bottom: 0.5rem;
     }
   }
 }

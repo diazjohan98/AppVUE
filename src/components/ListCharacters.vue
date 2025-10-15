@@ -35,11 +35,13 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 .characters {
+  width: 80%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 3rem;
-  margin: 3rem 0;
+  grid-gap: 3rem;
+  margin: 3rem auto;
+  justify-content: center;
 }
 </style>
